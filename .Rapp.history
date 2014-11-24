@@ -1,0 +1,8 @@
+3+2
+data <- read.csv("hw1_data.csv")
+data
+firstcol <- data{, 1]
+firstcol <- data[, 1]
+thisisna <- is.na(firstcol)
+x <- firstcol[!thisisna]
+mean(x)
